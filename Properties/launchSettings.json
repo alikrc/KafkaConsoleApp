@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "KafkaConsoleApp": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
