@@ -5,9 +5,9 @@ namespace KafkaConsoleApp
 {
     public class ConsumerService : IHostedService
     {
-        private readonly string kafkaServerIp = "localhost:9092";
-        private readonly string topic = "test-topic";
-        private readonly string groupId = "test_group";
+        private readonly string kafkaServerIp = "192.168.0.10:9092";
+        private readonly string topic = "test";
+        private readonly string groupId = "test";
 
         public async Task StartAsync(CancellationToken cancellationToken)
         {

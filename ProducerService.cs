@@ -7,8 +7,8 @@ namespace KafkaConsoleApp
 {
     public class ProducerService : IHostedService
     {
-        private readonly string kafkaServerIp = "localhost:9092";
-        private readonly string topic = "test-topic";
+        private readonly string kafkaServerIp = "192.168.0.10:9092";
+        private readonly string topic = "test";
 
         public async Task SendMessageAsync(string topic, string message)
         {
